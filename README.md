@@ -5656,7 +5656,7 @@ function library:CreateWindow(options, ...)
 		options = (options and type(options) == "string" and resolvevararg("Tab", options, ...)) or options
 		assert(shared.bypasstablimit or library.Designer == nil, "Designer already exists")
 		options = options or {}
-		options.Image = options.Image or 7483871523
+		options.Image = options.Image or 11184984753
 		options.LastTab = true
 		local designer = windowFunctions:CreateTab(options)
 		local colorsection = designer:CreateSection({
@@ -5706,9 +5706,9 @@ function library:CreateWindow(options, ...)
 		}
 		local daaata = {{"AddTextbox", "__Designer.Textbox.ImageAssetID", backgroundsection, {
 			Name = "Image Asset ID",
-			Placeholder = "rbxassetid://11184984753",
+			Placeholder = "rbxassetid://11319027734",
 			Flag = "__Designer.Background.ImageAssetID",
-			Value = "rbxassetid://11184984753",
+			Value = "rbxassetid://11319027734",
 			Callback = updatecolorsnotween
 		}}, {"AddColorpicker", "__Designer.Colorpicker.ImageColor", backgroundsection, {
 			Name = "Image Color",
