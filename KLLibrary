@@ -24,7 +24,6 @@ local library = {
 		sectionBackground = Color3.fromRGB(35, 34, 34),
 		section = Color3.fromRGB(255, 255, 255),
 		otherElementText = Color3.fromRGB(129, 127, 129),
-
 		elementText = Color3.fromRGB(43, 255, 0),
 		-- elementText = Color3.fromRGB(147, 145, 147),
 		elementBorder = Color3.fromRGB(20, 20, 20),
